@@ -25,14 +25,14 @@ db.once('open', async () => {
   const products = await Product.insertMany([
     {
       name: 'Bright Birthday Bomb',
-      description: 'Arrangement of gerber daisies, green poms, roses, statice in a HAPPY BIRTHDAY vase',
+      description: 'Arrangement of gerber daisies, green poms, roses, and statice in a HAPPY BIRTHDAY vase.',
       image: './Birthday/BrightBdayBomb.jpg',
       category: categories[0]._id,
       price: 39.99
     },
     {
       name: 'Garden Birthday Bomb',
-      description:'Pot of rooted violets and kalanchoe',
+      description:'Violet and kalanchoe plants in a wooden pot.',
       image: './Birthday/GardenBdayBomb.jpg',
       category: categories[0]._id,
       price: 29.99
@@ -40,14 +40,14 @@ db.once('open', async () => {
     {
       name: 'Light Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangement of lilies, carnations, daisies and roses in a clear vase',
+      description:'Arrangement of lilies, carnations, daisies, and roses in a clear glass vase.',
       image: './Birthday/LightBdayBomb.jpg',
       price: 36.99
     },
     {
       name: 'Marmalade Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangement of roses, monte casino, poms, alstroemeria, daisies, solidago in a clear vase',      
+      description:'Arrangement of roses, monte casino, poms, alstroemeria, daisies, and solidago in a clear glass vase.',      
       image: './Birthday/MarmaladeBdayBomb.jpg',
       price: 25.99,
       
@@ -55,56 +55,56 @@ db.once('open', async () => {
     {
       name: 'Radiance Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangement of roses, carnations, poms, ivy, snap dragons, in a wooden basket',
+      description:'Arrangement of roses, carnations, poms, ivy, and snap dragons in a wooden basket.',
       image: './Birthday/RadianceBdayBomb.jpg',
       price: 42.99
     },
     {
-      name: 'Rainbow Birthday bomb',
+      name: 'Rainbow Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangement of rainbow colored roses in a clear vase',
+      description:'Arrangement of rainbow colored roses in a clear glass vase.',
       image: './Birthday/RainbowBdayBomb.jpg',
       price: 32.99
     },
     {
       name: 'Rose Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangemnt of roses, carnations, and alstroemeria in a clear vase',
+      description:'Arrangement of roses, carnations, and alstroemeria in a clear glass vase.',
       image: './Birthday/RoseBdayBomb.jpg',
       price: 39.99,
     },
     {
       name: 'Smile Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangement of roses and alstroemeria in a clear vase',
+      description:'Arrangement of roses and alstroemeria in a clear glass vase.',
       image: './Birthday/SmileBdayBomb.jpg',
       price: 39.99
     },
     {
       name: 'Sorbet Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangemnt of roses, carnations, daisies, and variety of poms in a white wooden box',
+      description:'Arrangement of roses, carnations, daisies, and a variety of poms in a white wooden box.',
       image: './Birthday/SorbetBdayBomb.jpg',
       price: 35.99
     },
     {
       name: 'Spirit Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangemnt of roses, lilies, poms, carnations, and snap dragons in a wooden basket',
+      description:'Arrangement of roses, lilies, poms, carnations, and snap dragons in a wooden basket.',
       image: './Birthday/SpiritBdayBomb.jpg',
       price: 42.99
     },
     {
       name: 'Sweet Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangement of roses, carnations, poms, and alstroemeria in a clease vase',
+      description:'Arrangement of roses, carnations, poms, and alstroemeria in a clear glass vase.',
       image: './Birthday/SweetBdayBomb.jpg',
       price: 29.99
     },
     {
       name: 'Wild Spirit Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangement of stargazer lilies, roses, poms, snap dragons, and eucalyptus in a white wooden box ',
+      description:'Arrangement of stargazer lilies, roses, poms, snap dragons, and eucalyptus in a white wooden box.',
       image: './Birthday/WildSpiritBdayBomb.jpg',
       price: 37.99
     },
