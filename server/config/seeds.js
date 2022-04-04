@@ -531,42 +531,42 @@ db.once('open', async () => {
     {
       name: 'Beautiful Treasure',
       category: categories[6]._id,
-      description:'Arrangement of roese , lilies, hydrangea, alstroemeria, and snap dragons in a clear vase',
+      description:'Arrangement of roses, lilies, hydrangeas, alstroemeria, and snap dragons in a clear glass vase.',
       image: './MothersDay/BeautifulTreasure.jpg',
       price: 44.99
     },
     {
       name: 'Blue Raspberry',
       category: categories[6]._id,
-      description:'Arrangement of roses, lilies, hydrangea, snap dragons, and statice in a blue vase',
+      description:'Arrangement of roses, lilies, hydrangeas, snap dragons, and statice in a blue glass vase.',
       image: './MothersDay/BlueRaspberry.jpg',
       price: 49.99
     },
     {
       name: 'Blue Skies',
       category: categories[6]._id,
-      description:'Arrangement of roses, lilies and asters in a clear vase',
+      description:'Arrangement of roses, lilies, and asters in a clear glass vase.',
       image: './MothersDay/BlueSkies.jpg',
       price: 44.99
     },
     {
       name: 'Flower Garden',
       category: categories[6]._id,
-      description:'Arrangement of sunflowers, lilies, roses, asters, alstroemeria, and poms in clear vase',
+      description:'Arrangement of sunflowers, lilies, roses, asters, alstroemeria, and poms in clear glass vase.',
       image: './MothersDay/FlowerGarden.jpg',
       price: 48.99
     },
     {
       name: 'Just For You',
       category: categories[6]._id,
-      description:'Arrangement of roses and pink liles in a clear vase',
+      description:'Arrangement of white roses and pink lilies in a clear glass vase.',
       image: './MothersDay/JustForYou.jpg',
       price: 52.99
     },
     {
       name: 'Lush Lavender',
       category: categories[6]._id,
-      description:'Arrangement of roses, alstroemeria, statice, mums, and poms in a clear vase',
+      description:'Arrangement of roses, alstroemeria, statice, mums, and poms in a clear glass vase.',
       image: './MothersDay/LushLavender.jpg',
       price: 45.99
     },
@@ -574,44 +574,43 @@ db.once('open', async () => {
     {
       name: 'Lux Lavender',
       category: categories[6]._id,
-      description:
-        '',
+      description:'Arrangement of roses, daisies, carnations, and alstroemeria in a purple glass vase.',
       image: './MothersDay/LuxLavender.jpg',
-      price: 9.99,
+      price: 43.99,
       quantity: 600
     },
     {
       name: 'Pink and Pretty',
       category: categories[6]._id,
-      description:'Arrangement of roses and alstroemeria in pink vase',
+      description:'Arrangement of pink roses and white alstroemeria in a red glass vase.',
       image: './MothersDay/PinknPretty.jpg',
       price: 45.99
     },
     {
       name: 'Serenity',
       category: categories[6]._id,
-      description:'Arrangement of roses, lilies, alstroemeria, and a variety of daisies in a clear vase',
+      description:'Arrangement of roses, lilies, alstroemeria, and a variety of daisies in a clear glass vase.',
       image: './MothersDay/Serenity.jpg',
       price: 48.99
     },
     {
       name: 'Spring Equinox',
       category: categories[6]._id,
-      description:'Arrangement of roses, lilies, tulips, hydrangea, and delphinium in a clear vase',
+      description:'Arrangement of roses, lilies, tulips, hydrangeas, and delphinium in a clear glass vase.',
       image: './MothersDay/SpringEquinox.jpg',
       price: 49.99
     },
     {
       name: 'Stunning Lily',
       category: categories[6]._id,
-      description:'A variety of lilies in a clear pink vase',
+      description:'A variety of different colored lilies in a pink glass vase.',
       image: './MothersDay/StunningLily.jpg',
       price: 50.99
     },
     {
       name: 'WineCountry',
       category: categories[6]._id,
-      description:'Arrangement of roses, poms, carnations, alstroemeria, and succulents in a clear vase',
+      description:'Arrangement of roses, poms, carnations, alstroemeria, and succulents in a clear glass vase.',
       image: './MothersDay/WineCountry.jpg',
       price: 48.99
     },
