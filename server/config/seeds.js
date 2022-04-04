@@ -195,84 +195,84 @@ db.once('open', async () => {
     {
       name: 'Cool Spring',
       category: categories[2]._id,
-      description:'Arrangement of asters, carnations, snap dragons, and hydrangea in a clear vase',
+      description:'Arrangement of asters, carnations, snap dragons, and hydrangea in a clear glass vase.',
       image: './Easter/CoolSpring.jpg',
       price: 31.99
     },
     {
       name: 'Daffodil Bulb',
       category: categories[2]._id,
-      description:'Potted dadodil',
+      description:'Daffodil plant in a wicker basket.',
       image: './Easter/DaffodilBulb.jpg',
       price: 29.99
     },
     {
       name: 'Hyacinth Garden',
       category: categories[2]._id,
-      description:'Potted hyacinth',
+      description:'Hyacinth plant in a wicker basket.',
       image: './Easter/HyacinthGarden.jpg',
       price: 45.99
     },
     {
       name: 'Iris Stargazer',
       category: categories[2]._id,
-      description:'Differnt varieties of lilies and iris in a clear vase',
+      description:'Arrangement of a variety of lilies and iris in a clear glass vase.',
       image: './Easter/IrisStargazer.jpg',
       price: 39.99
     },
     {
       name: 'Orchid',
       category: categories[2]._id,
-      description:'Yallow orchid stems in a clear vase',
+      description:'Arrangement of yellow orchid stems in a clear glass vase.',
       image: './Easter/Orchid.jpg',
       price: 59.99
     },
     {
       name: 'Spring Field',
       category: categories[2]._id,
-      description:'Arrangement of lilies, alstroemeria, poms, daisies, and statice in a clear vase',
+      description:'Arrangement of lilies, alstroemeria, poms, daisies, and statice in a clear glass vase.',
       image: './Easter/SpringField.jpg',
       price: 35.99
     },
     {
       name: 'Sunflower',
       category: categories[2]._id,
-      description:'Arrangement of sunflowers in a clear vase',
+      description:'Arrangement of sunflowers in a clear glass vase.',
       image: './Easter/Sunflower.jpg',
       price: 39.99
     },
     {
-      name: 'Sunflower Medow',
+      name: 'Sunflower Meadow',
       category: categories[2]._id,
-      description:'Arrangement of sunflowers and a variety asters in a clear vase',
+      description:'Arrangement of sunflowers and a variety asters in a clear glass vase.',
       image: './Easter/SunflowerMedow.jpg',
       price: 31.99
     },
     {
       name: 'Sunny Spring',
       category: categories[2]._id,
-      description:'Arrangement of mini roses, alstroemeria, sunflowers and auriculas in a clear vase',
+      description:'Arrangement of mini roses, alstroemeria, sunflowers, and auriculas in a clear glass vase.',
       image: './Easter/SunnySpring.jpg',
       price: 35.99
     },
     {
       name: 'Warm Tulip',
       category: categories[2]._id,
-      description:'A variey of tulips in a clear vase',
+      description:'A variety of tulips in a clear glass vase.',
       image: './Easter/Tulip.jpg',
       price: 36.99
     },
     {
       name: 'Cool Tulip',
       category: categories[2]._id,
-      description:'A variety of tulips in a clear vase',
+      description:'A variety of tulips in a clear glass vase.',
       image: './Easter/Tulip2.jpg',
       price: 36.99
     },
     {
       name: 'Warm Spring',
       category: categories[2]._id,
-      description:'Arrangement of roses, lilies, alstroemeria, and asters in a clear and gold vase',
+      description:'Arrangement of roses, lilies, alstroemeria, and asters in a clear glass vase with a gold base.',
       image: './Easter/WarmSpring.jpg',
       price: 43.99
     },
