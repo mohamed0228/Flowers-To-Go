@@ -363,84 +363,84 @@ db.once('open', async () => {
     {
       name: 'Bonsai',
       category: categories[4]._id,
-      description: 'Potted bonsai tree in a ceramic pot',
+      description: 'Potted bonsai tree in a ceramic pot.',
       image: './JustBecause/Bonsai.jpg',
       price: 35.99
     },
     {
       name: 'Champagne Rose',
       category: categories[4]._id,
-      description:'Arrangement of champagne roses in a clear vase',
+      description:'Arrangement of champagne roses in a clear glass vase.',
       image: './JustBecause/ChampagneRose.jpg',
       price: 49.99
     },
     {
       name: 'Dream Pink Garden',
       category: categories[4]._id,
-      description:'Begonia plant in a wooden pot',
+      description:'Pink begonia plant in a wooden pot.',
       image: './JustBecause/DreamPinkGarden.jpg',
       price: 29.99
     },
     {
       name: 'Gardenia Garden',
       category: categories[4]._id,
-      description:'Gardenia plant in a burlap bag',
+      description:'Gardenia plant in a burlap bag.',
       image: './JustBecause/GardeniaGarden.jpg',
       price: 20.99
     },
     {
       name: 'Happy Days',
       category: categories[4]._id,
-      description:'Arrangement of yellow roses and daisies in a happy face mug',
+      description:'Arrangement of yellow roses and white daisies in a yellow ceramic happy face mug.',
       image: './JustBecause/HappyDays.jpg',
       price: 44.99
     },
     {
       name: 'Hyacinth Garden',
       category: categories[4]._id,
-      description:'Pink hyacinth plant in a woven pot',
+      description:'Pink hyacinth plant in a woven pot.',
       image: './JustBecause/HyacinthGarden.jpg',
       price: 34.99
     },
     {
-      name: 'JoyfullJoy',
+      name: 'Joyfull Joy',
       category: categories[4]._id,
-      description:'Arrangement of carnations, daisies, monte casino, and poms in a clear vase decorated with rainbow ribbons',
+      description:'Arrangement of carnations, daisies, monte casino, and poms in a clear glass vase decorated with rainbow ribbons.',
       image: './JustBecause/JoyfulJoy.jpg',
       price: 35.99
     },
     {
       name: 'Mamacita',
       category: categories[4]._id,
-      description:'Arrangement of calla liles, asters, and eucalyptus in a clear vase',
+      description:'Arrangement of calla lilies, asters, and eucalyptus in a clear glass vase.',
       image: './JustBecause/Mamacita.jpg',
       price: 42.99
     },
     {
       name: 'Sunrise Tulip Garden',
       category: categories[4]._id,
-      description:'Sunrise tulip plant in a wicket pot',
+      description:'Sunrise tulip plant in a wicker pot.',
       image: './JustBecause/SunriseTulipGarden.jpg',
       price: 39.99
     },
     {
       name: 'Sunshine Joy',
       category: categories[4]._id,
-      description:'Kalanchoe plant with succulents in a wooden planter',
+      description:'Kalanchoe plant with succulents in a wooden planter.',
       image: './JustBecause/SunshineJoy.jpg',
       price: 25.99
     },
     {
       name: 'Tulip and Iris',
       category: categories[4]._id,
-      description:'Arrangement of tulips and iris in a clear vase',
+      description:'Arrangement of tulips and iris in a clear glass vase.',
       image: './JustBecause/TulipnIris.jpg',
       price: 39.99
     },
     {
       name: 'Zen Garden',
       category: categories[4]._id,
-      description:'variety of succulents in a hexigontal wooden planter',
+      description:'Variety of succulents in a hexigonal wooden planter.',
       image: './JustBecause/ZenGarden.jpg',
       price: 19.99
     },
