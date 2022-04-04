@@ -279,84 +279,84 @@ db.once('open', async () => {
     {
       name: 'Crunch Time Basket',
       category: categories[3]._id,
-      description:'Chocolate dipped nuts, chocolate dipped oreos, chocolate dipped pretzels, and dessert popcorn in a wooden crate',
+      description:'Chocolate dipped nuts, chocolate dipped oreos, chocolate dipped pretzels, and dessert popcorn in a wooden crate.',
       image: './GiftBaskets/CrunchTimeBasket.jpg',
       price: 67.99
     },
     {
       name: 'Everything & More Basket',
       category: categories[3]._id,
-      description:'English tea, cranberry and sesame cookies, honey crunch mix, chocolate truffles, crackers, lemon cakes, garlic and herb dip mix, french butter cookies, sticky toffee, madeleines, honey mustard dip, olives, cheese wedges, salami, and more in a canvas tote',
+      description:'English tea, cranberry and sesame cookies, honey crunch mix, chocolate truffles, crackers, lemon cakes, garlic and herb dip mix, french butter cookies, sticky toffee, madeleines, honey mustard dip, olives, cheese wedges, salami, and more in a canvas tote.',
       image: './GiftBaskets/EverythingnMoreBasket.jpg',
       price: 134.99
     },
     {
       name: 'Favorite Candy Basket',
       category: categories[3]._id,
-      description:"Skittles, M&M's, Starburst, Hershey's chocolate bars, Reese's, Butterfinger, Milkyway, Snickers, and chocolate covered raisins in a wicker basket",
+      description:"Skittles, M&M's, Starburst, Hershey's chocolate bars, Reese's, Butterfinger, Milkyway, Snickers, and chocolate covered raisins in a wicker basket.",
       image: './GiftBaskets/FavoriteCandyBasket.jpg',
       price: 49.99
     },
     {
       name: 'Feel Better Basket',
       category: categories[3]._id,
-      description:'Honey crunch mix, chocolate truffles, walnut cookies, brownies, kettle popcorn, chocolate wafer bites, green tea, chicken andrice soup mix, limon celli cookies, Ghirardelli chocolate squares, dominoes, and puzzle books in a Get Well Soon basket',
+      description:'Honey crunch mix, chocolate truffles, walnut cookies, brownies, kettle popcorn, chocolate wafer bites, green tea, chicken and rice soup mix, limon celli cookies, Ghirardelli chocolate squares, dominoes, and puzzle books in a Get Well Soon basket.',
       image: './GiftBaskets/FeelBetterBasket.jpg',
       price: 89.99
     },
     {
       name: 'Floral Spa Basket',
       category: categories[3]._id,
-      description:'Shower gel, body scrub, body mist, body lotion, bath salts, loofah, nail brush, foot file, pumus stone, massager, bath sponge, bath scrubber, bath flower, and decorative butterfly in a floral printed box',
+      description:'Shower gel, body scrub, body mist, body lotion, bath salts, loofah, nail brush, foot file, pumice stone, massager, bath sponge, bath scrubber, bath flower, and decorative butterfly in a floral printed box.',
       image: './GiftBaskets/FloralSpaBasket.jpg',
       price: 86.99
     },
     {
       name: 'Fruit Basket',
       category: categories[3]._id,
-      description:'Seasonal fruit in a wicker basket',
+      description:'An assortment of seasonal fruit in a wicker basket.',
       image: './GiftBaskets/FruitBasket.jpg',
       price: 63.99
     },
     {
       name: 'Fruit & Chocolate Basket',
       category: categories[3]._id,
-      description:'Apple, pears, oranges, chocolate covered almonds, chocolate nonparelis, and chocolate almond bark in a gift box',
+      description:'Apples, pears, oranges, chocolate covered almonds, chocolate nonparels, and chocolate almond bark in a gift box.',
       image: './GiftBaskets/FruitnChocoBasket.jpg',
       price: 79.99
     },
     {
       name: 'Gourmet Basket',
       category: categories[3]._id,
-      description:'A variety of fruit, cheese, crackers, and tea in a wicker basket',
+      description:'A variety of fruit, cheese, crackers, and tea in a wicker basket.',
       image: './GiftBaskets/GourmetBasket.jpg',
       price: 111.99
     },
     {
       name: 'Lavender Spa Basket',
       category: categories[3]._id,
-      description:'Hand soap, hand lotion, bar soap, body butter, mimosa candle, lavender sachet, loofah, slippers, and bath bomb in a wooden gift crate',
+      description:'Hand soap, hand lotion, bar soap, body butter, mimosa candle, lavender sachet, loofah, slippers, and a bath bomb in a wooden gift crate.',
       image: './GiftBaskets/LavenderSpaBasket.jpg',
       price: 104.99
     },
     {
       name: 'Man Can Basket',
       category: categories[3]._id,
-      description:'Bar soap, shaving gel, rum oil, hand butter, and exfoliating mit in a paint can',
+      description:'Bar soap, shaving gel, rum oil, hand butter, and exfoliating mit in a Man Can paint can.',
       image: './GiftBaskets/ManCanBasket.jpg',
       price: 84.99
     },
     {
       name: 'Party Jewel Basket',
       category: categories[3]._id,
-      description:'Gem stone pendant, bubble bears, soy candle, and satin eye mask in an elegant gift box',
+      description:'Gem stone pendant, bubble bears, soy candle, and a thermal cup in an elegant gift box.',
       image: './GiftBaskets/PartyJewelBasket.jpg',
       price: 109.99
     },
     {
       name: 'Spa For Men Basket',
       category: categories[3]._id,
-      description:'Back scrubber, hand massager, body scrub, muscle rub, shaving jelly, and a facial cleansing bar in a gift basket',
+      description:'Back scrubber, hand massager, body scrub, muscle rub, shaving jelly, and a facial cleansing bar in a gift basket.',
       image: './GiftBaskets/SpaForMenBasket.jpg',
       price: 124.99
     },
