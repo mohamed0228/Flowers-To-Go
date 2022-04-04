@@ -111,84 +111,84 @@ db.once('open', async () => {
     {
       name: 'Blue Carribean',
       category: categories[1]._id,
-      description:'Arrangement of lilies, gerber daisies, mini roses and asters in a blue vase',
+      description:'Arrangement of lilies, gerber daisies, mini roses, and asters in a blue glass vase.',
       image: './Congratulations/BlueCaribbean.jpg',
       price: 42.99
     },
     {
       name: 'Celebrate',
       category: categories[1]._id,
-      description:'Arrangement of roses, carnations, eucalyptus, and purple stock in a clear vase',
+      description:'Arrangement of roses, carnations, eucalyptus, and purple stock in a clear glass vase.',
       image: './Congratulations/Celebrate.jpg',
       price: 43.99
     },
     {
       name: 'Country Basket',
       category: categories[1]._id,
-      description:'Arrangement of gerber daisies, mini roses, carnations snap dragons, and a variety of asters in a whicker basket',
+      description:'Arrangement of gerber daisies, mini roses, carnations. snap dragons, and a variety of asters in a whicker basket.',
       image: './Congratulations/CountryBasket.jpg',
       price: 43.99
     },
     {
       name: 'Daisy Delight',
       category: categories[1]._id,
-      description:'Arrangemnt of a variety of daisies, and solidago in a clear vase',
+      description:'Arrangement of a variety of daisies and solidago in a clear glass vase.',
       image: './Congratulations/DasiyDelight.jpg',
       price: 31.99
     },
     {
       name: 'Enchantment',
       category: categories[1]._id,
-      description:'Arrangement of sunflowers, roses, alstroemeria, poms, and statice in a clear vase',
+      description:'Arrangement of sunflowers, roses, alstroemeria, poms, and statice in a clear glass vase.',
       image: './Congratulations/Enchantment.jpg',
       price: 32.99
     },
     {
       name: 'Field Jar',
       category: categories[1]._id,
-      description:'Arrangement of sunflowers, roses, poms, alstroemeria, and asters in a clear jar',
+      description:'Arrangement of sunflowers, roses, poms, alstroemeria, and asters in a clear glass jar.',
       image: './Congratulations/FieldJar.jpg',
       price: 35.99
     },
     {
       name: 'Moonstruck',
       category: categories[1]._id,
-      description:'Arrangement of white roses, alstroemeria, euclyptus, and solidago in a moon shaped pot',
+      description:'Arrangement of white roses, alstroemeria, euclyptus, and solidago in a gold moon shaped pot.',
       image: './Congratulations/Moonstruck.jpg',
       price: 52.99
     },
     {
       name: 'Pink Congrats',
       category: categories[1]._id,
-      description:'Arrangement of roses, asters, gerber daisies, and alstroemeria in a pink vase with a CONGRATULATIONS balloon',
+      description:'Arrangement of roses, asters, gerber daisies, and alstroemeria in a pink glass vase with a CONGRATULATIONS balloon.',
       image: './Congratulations/PinkCongrats.jpg',
       price: 35.99
     },
     {
       name: 'Rosy Congrats',
       category: categories[1]._id,
-      description:'Arrangement of red and pink roses, lilies and primrose in a clear vase with a CONGRATULATIONS balloon',
+      description:'Arrangement of red and pink roses, lilies, and primrose in a clear glass vase with a CONGRATULATIONS balloon.',
       image: './Congratulations/RosyCongrats.jpg',
       price: 35.99,
     },
     {
       name: 'Sunny Mix',
       category: categories[1]._id,
-      description:'Arrangement of sunflowers and alstroemeria in a green box',
+      description:'Arrangement of sunflowers and alstroemeria in a green box.',
       image: './Congratulations/SunnyMix.jpg',
       price: 38.99
     },
     {
       name: 'Walking Sunshine',
       category: categories[1]._id,
-      description:'Arrangement of roses and alstroemeria in a clear vase',
+      description:'Arrangement of roses and alstroemeria in a clear glass vase.',
       image: './Congratulations/WalkingSunshine.jpg',
       price: 36.99
     },
     {
       name: 'Wild Field',
       category: categories[1]._id,
-      description:'Arrangement of carnations, daisies, iris, and statice in a clease vase',
+      description:'Arrangement of carnations, daisies, iris, and statice in a clear glass vase.',
       image: './Congratulations/WildField.jpg',
       price: 29.99
     },
