@@ -447,84 +447,84 @@ db.once('open', async () => {
     {
       name: 'Clear Skies',
       category: categories[5]._id,
-      description:'Arrangement of roses, lilies, carnations, and statice in a blue vase',
+      description:'Arrangement of roses, lilies, carnations, and statice in a blue glass vase.',
       image: './LoveAndRomance/ClearSkies.jpg',
       price: 45.99
     },
     {
       name: 'Endless Love',
       category: categories[5]._id,
-      description:'Arrangement of roses and greenery in a wooden box',
+      description:'Arrangement of roses and greenery in a wooden box.',
       image: './LoveAndRomance/EndlessLove.jpg',
       price: 43.99
     },
     {
       name: 'Hearts Desire',
       category: categories[5]._id,
-      description:'Arrangement of roses, stargazer lilies, and hydrenga in a clear vase',
+      description:'Arrangement of roses, stargazer lilies, and hydrengas in a clear glass vase.',
       image: './LoveAndRomance/HeartsDesire.jpg',
       price: 45.99
     },
     {
       name: 'Love and Devotion',
       category: categories[5]._id,
-      description:'Arrangement of roses in a clear vase',
+      description:'Arrangement of roses in a clear glass vase.',
       image: './LoveAndRomance/LoveandDevotion.jpg',
       price: 59.99
     },
     {
       name: 'Love Blooms',
       category: categories[5]._id,
-      description:'Arrangement of roses, poms, hydrangea, alstroemeria, and carnations in a clear vase',
+      description:'Arrangement of roses, poms, hydrangeas, alstroemeria, and carnations in a clear glass vase.',
       image: './LoveAndRomance/LoveBlooms.jpg',
       price: 35.99
     },
     {
       name: 'My Angel',
       category: categories[5]._id,
-      description:'Arrangement of lilies, carnations, and hydrangea in a clear vase',
+      description:'Arrangement of lilies, carnations, and hydrangeas in a clear glass vase.',
       image: './LoveAndRomance/MyAngel.jpg',
       price: 32.99
     },
     {
       name: 'Pink Meadow',
       category: categories[5]._id,
-      description:'Arrangement of roses, lilies, alstroemeria, asters, and snap dragons in a clear vase',
+      description:'Arrangement of roses, lilies, alstroemeria, asters, and snap dragons in a clear glass vase.',
       image: './LoveAndRomance/PinkMeadow.jpg',
       price: 32.99
     },
     {
       name: 'Precious Love',
       category: categories[5]._id,
-      description:'Arrangement of roses, gerber daisies, sunrise tulips, hydrangea in a clear vase',
+      description:'Arrangement of roses, gerber daisies, sunrise tulips, and hydrangeas in a clear glass vase.',
       image: './LoveAndRomance/PreciousLove.jpg',
       price: 38.99
     },
     {
       name: 'Rainbow Romance',
       category: categories[5]._id,
-      description:'A variety of alstroemeria in a clear vase',
+      description:'A variety of different colored alstroemeria in a clear glass vase.',
       image: './LoveAndRomance/RainbowRomance.jpg',
       price: 24.99
     },
     {
       name: 'Regal Romance',
       category: categories[5]._id,
-      description:'Arrangement of roses, alstroemeria, stargazer lilies, and statice in a clear vase',
+      description:'Arrangement of roses, alstroemeria, stargazer lilies, and statice in a clear glass vase.',
       image: './LoveAndRomance/RegalRomance.jpg',
       price: 36.99
     },
     {
       name: 'Scarlett',
       category: categories[5]._id,
-      description:'Arrangement of roses and meadowsweet in a square clear vase',
+      description:'Arrangement of roses and meadowsweet in a square clear glass vase.',
       image: './LoveAndRomance/Scarlett.jpg',
       price: 39.99
     },
     {
       name: 'Whimsy',
       category: categories[5]._id,
-      description:'Arrangement of roses, hydrangea, chamomilie, and greenery in a clear vase',
+      description:'Arrangement of roses, hydrangeas, chamomile, and greenery in a clear glass vase.',
       image: './LoveAndRomance/Whimsy.jpg',
       price: 36.99
     },
