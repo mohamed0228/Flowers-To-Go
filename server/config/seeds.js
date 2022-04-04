@@ -47,9 +47,10 @@ db.once('open', async () => {
     {
       name: 'Marmalade Birthday Bomb',
       category: categories[0]._id,
-      description:'Arrangement of roses, monte casino, poms, alstroemeria, daisies, solidago in a clear vase',      image: './Birthday/MarmaladeBdayBomb.jpg',
+      description:'Arrangement of roses, monte casino, poms, alstroemeria, daisies, solidago in a clear vase',      
+      image: './Birthday/MarmaladeBdayBomb.jpg',
       price: 25.99,
-      quantity: 50
+      
     },
     {
       name: 'Radiance Birthday Bomb',
