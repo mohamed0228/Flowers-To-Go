@@ -617,84 +617,84 @@ db.once('open', async () => {
     {
       name: 'Cherished',
       category: categories[7]._id,
-      description:'Arrangement of carnation, roses, and alstroemeria in a clear vase',
+      description:'Arrangement of carnations, roses, and alstroemeria in a clear glass vase.',
       image: './Sympathy/Cherished.jpg',
       price: 35.99
     },
     {
       name: 'Clear Skies',
       category: categories[7]._id,
-      description:'Arrangement of roses, poms, and delphinium in a clear vase',
+      description:'Arrangement of roses, poms, and delphinium in a clear glass vase.',
       image: './Sympathy/ClearSkies.jpg',
       price: 35.99
     },
     {
       name: 'Comfort Plant',
       category: categories[7]._id,
-      description:'Calla lily plants in a pot',
+      description:'Calla lily plant in a ceramic pot.',
       image: './Sympathy/ComfortPlant.jpg',
       price: 29.99
     },
     {
       name: 'Condolences',
       category: categories[7]._id,
-      description:'Arrangement of roses and daisies in a wicker basket',
+      description:'Arrangement of roses, daisies, and greenery in a wicker basket.',
       image: './Sympathy/Condolences.jpg',
       price: 32.99
     },
     {
       name: 'Elegance',
       category: categories[7]._id,
-      description:'Arrangement of lilies and delphinium in a clear vase',
+      description:'Arrangement of lilies, delphinium, and greenery in a clear glass vase.',
       image: './Sympathy/Elegance.jpg',
       price: 39.99
     },
     {
       name: 'Eternal Day',
       category: categories[7]._id,
-      description:'Arrangement of roses, carnations, and delphinium in a standing grave vase',
+      description:'Arrangement of roses, carnations, and delphinium in a standing grave vase.',
       image: './Sympathy/EternalDay.jpg',
       price: 63.99
     },
     {
       name: 'Eternity',
       category: categories[7]._id,
-      description:'Arrangement of roses, daisies, and alstroemeria in a wicker basket',
+      description:'Arrangement of roses, daisies, and alstroemeria in a wicker basket.',
       image: './Sympathy/Eternity.jpg',
       price: 35.99
     },
     {
       name: 'Heaven',
       category: categories[7]._id,
-      description:'Arrangement of lilies, roses, hydrangea, mums, and delhpinium in a standing vase',
+      description:'Arrangement of lilies, roses, hydrangeas, mums, and delphinium in a standing vase.',
       image: './Sympathy/Heaven.jpg',
       price: 55.99
     },
     {
       name: 'Horizons',
       category: categories[7]._id,
-      description:'Arrangement of roses, delphinium, poms, statice, and greenery in a standing vase',
+      description:'Arrangement of roses, delphinium, poms, statice, and greenery in a standing vase.',
       image: './Sympathy/Horizons.jpg',
       price: 55.99
     },
     {
       name: 'Living Spirit',
       category: categories[7]._id,
-      description:'Arrangement of alstroemeria, calla lily, and greenery in a wicker basket',
+      description:'Arrangement of alstroemeria, calla lily, and greenery in a wicker basket decorated with a pink bow.',
       image: './Sympathy/LivingSpirit.jpg',
       price: 32.99
     },
     {
       name: 'Peaceful Garden',
       category: categories[7]._id,
-      description:'Kalanchoe and calla lily plants in a wooden planter',
+      description:'Kalanchoe and calla lily plants in a wooden planter.',
       image: './Sympathy/PeacefulGarden.jpg',
       price: 25.99
     },
     {
       name: 'Prayers Spray',
       category: categories[7]._id,
-      description:'Standing spray of lilies, roses, alstroemeria, delphinium, and greenery',
+      description:'Standing spray of lilies, roses, alstroemeria, delphinium, and greenery.',
       image: './Sympathy/PrayersSpray.jpg',
       price: 129.99
     }
