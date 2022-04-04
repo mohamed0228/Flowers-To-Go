@@ -43,11 +43,43 @@ function ProductList() {
     );
   }
 
+  const handleSort = (sortType) => {
+    if (sortType === 'ASC') {
+      dispatch({
+        type: UPDATE_PRODUCTS,
+        products: state.products.sort((a, b) => a.price - b.price),
+      });
+    } else {
+      dispatch({
+        type: UPDATE_PRODUCTS,
+        products: state.products.sort((a, b) => b.price - a.price),
+      });
+    }
+  };
+
   return (
-    <div className="my-2">
+    <div className='my-2'>
       <h2>Our Products:</h2>
+      <div>
+        <button
+          key='ASC'
+          onClick={() => {
+            handleSort('ASC');
+          }}
+        >
+          Sort Price ASC
+        </button>
+        <button
+          key='DESC'
+          onClick={() => {
+            handleSort('DESC');
+          }}
+        >
+          Sort Price DESC
+        </button>
+      </div>
       {state.products.length ? (
-        <div className="flex-row">
+        <div className='flex-row'>
           {filterProducts().map((product) => (
             <ProductItem
               key={product._id}
@@ -62,7 +94,7 @@ function ProductList() {
       ) : (
         <h3>You haven't added any products yet!</h3>
       )}
-      {loading ? <img src={spinner} alt="loading" /> : null}
+      {loading ? <img src={spinner} alt='loading' /> : null}
     </div>
   );
 }
