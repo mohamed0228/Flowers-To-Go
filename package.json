@@ -17,6 +17,6 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "react-multi-carousel": "^2.8.0"
+    "nvm": "^0.0.4"
   }
 }
