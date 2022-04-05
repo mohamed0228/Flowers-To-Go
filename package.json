@@ -17,6 +17,8 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "nvm": "^0.0.4"
+    "react-dropdown": "^1.9.2",
+    "react-multi-carousel": "^2.8.0",
+    "react-responsive-carousel": "^3.2.23"
   }
 }
