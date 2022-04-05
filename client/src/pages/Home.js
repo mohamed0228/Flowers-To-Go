@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="container">
      
-      <ProductList />
+      {/* <ProductList /> */}
       <CategoryMenu />
       <ProductList />
       <Cart />
