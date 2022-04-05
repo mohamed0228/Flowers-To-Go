@@ -7,13 +7,13 @@ export default function CarouselComponent() {
         <div className="carousel-wrapper">
                 <Carousel infiniteLoop autoPlay>
             <div>
-                <img src="./images/Birthday/BrightBdayBomb.jpg" />
+                <img src="./images/carouseleaster.jpg" alt='PKC'/>
             </div>
             <div>
-                <img src= './images/Birthday/RadianceBdayBomb.jpg'/>
+                <img src= './images/carouselgrad.jpg' alt='CD'/>
             </div>
             <div>
-                <img src="./images/Birthday/MarmaladeBdayBomb.jpg" />
+                <img src="./images/carouselmom.jpg" alt='FF'/>
             </div>
            
 
