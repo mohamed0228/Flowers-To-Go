@@ -14,7 +14,7 @@ const Home = () => {
        <div className="App">
       <CarouselComponent />
     </div>  
-      <ProductList />
+      {/* <ProductList /> */}
       <CategoryMenu />
       <ProductList />
       <Cart />
