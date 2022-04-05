@@ -64,7 +64,7 @@ const Cart = () => {
     return (
       <div className="cart-closed" onClick={toggleCart}>
         <span role="img" aria-label="trash">
-          <img src= './images/shopping.png'/>
+          <img src= './images/shopping.png' alt='sshopping card'/>
         </span>
       </div>
       
