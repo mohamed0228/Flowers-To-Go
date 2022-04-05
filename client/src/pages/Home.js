@@ -4,6 +4,8 @@ import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
 import '../components/Carossel/app.css';
 import CarouselComponent from "../components/Carossel";
+import Footer from "../components/Footer";
+import '../components/Footer/footer.css'
 //  import DropDownB from "../components/DropDownA";
 
 const Home = () => {
@@ -16,6 +18,7 @@ const Home = () => {
       <CategoryMenu />
       <ProductList />
       <Cart />
+      <Footer />
     </div>
   );
 };
