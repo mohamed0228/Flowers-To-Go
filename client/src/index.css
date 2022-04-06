@@ -93,7 +93,7 @@ header a {
 
 .navbar {
   display: flex;
-  margin-left: 850px;
+  /* margin-left: 850px; */
   flex-direction: row;
   /* justify-content: flex-end; */
 }
