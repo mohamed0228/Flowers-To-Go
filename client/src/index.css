@@ -99,20 +99,24 @@ header a {
 }
 
 button, #sort {
+ display: inline;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  padding: 1.2rem 1.3rem;
+  border-radius: 1.5rem;
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
+  margin: 1px 1px;
   background-color: var(--secondary);
 }
 
 button:hover {
   opacity: .8;
+  background-color: pink;
+   color:rgb(49, 112, 0);
+  
 }
 
 button[disabled] {
