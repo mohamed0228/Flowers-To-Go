@@ -66,7 +66,7 @@ function Login(props) {
           <button type="submit">Submit</button>
         </div>
       </form>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <Footer />
     </div>
     
