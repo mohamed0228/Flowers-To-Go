@@ -2,7 +2,6 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 
- 
 
 
 function Nav() {
@@ -48,6 +47,8 @@ function Nav() {
         <Link to="/">
           <span enter="bounceIn" role="img" aria-label="shopping bag" >🌼</span>
           -Flowers-To-Go-🌺
+
+
         </Link>
        
       </h1>
