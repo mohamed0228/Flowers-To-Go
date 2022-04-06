@@ -69,6 +69,8 @@ function CategoryMenu() {
     {
       document.body.style.backgroundImage = "url(./images/Background/SympathyBr.jpg)";
     }
+
+    // Updates the product list according to the category selected
     dispatch({
       type: UPDATE_CURRENT_CATEGORY,
       currentCategory: id,
@@ -83,7 +85,7 @@ function CategoryMenu() {
         <button
           key={item._id}
           onClick={() => {
-            handleClick(item.id, item.name);
+            handleClick(item._id, item.name);
           }}
         >
           {item.name}
