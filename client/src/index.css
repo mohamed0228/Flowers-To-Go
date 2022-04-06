@@ -83,7 +83,7 @@ a:hover {
 }
 
 header {
-  background: var(--primary);
+  background: var(--secondary);
 }
 
 header a {
