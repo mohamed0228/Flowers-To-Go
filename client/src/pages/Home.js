@@ -2,8 +2,8 @@ import React from "react";
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
-import '../components/Carossel/app.css';
-import CarouselComponent from "../components/Carossel";
+import '../components/Carousel/app.css';
+import CarouselComponent from "../components/Carousel";
 import Footer from "../components/Footer";
 import '../components/Footer/footer.css'
 //  import DropDownB from "../components/DropDownA";

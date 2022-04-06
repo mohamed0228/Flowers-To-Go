@@ -15,14 +15,6 @@ export default function CarouselComponent() {
             <div>
                 <img src="./images/carouselmom.jpg" alt='FF'/>
             </div>
-           
-
-      
-
-
-
-
-
             </Carousel>
         </div>
     );
