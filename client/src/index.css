@@ -125,7 +125,7 @@ img {
 }
 
 span[role="img"] {
-  cursor: default;
+  cursor: pointer;
 }
 
 form {
