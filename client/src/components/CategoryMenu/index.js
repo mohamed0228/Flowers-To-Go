@@ -35,35 +35,36 @@ function CategoryMenu() {
   }, [categoryData, loading, dispatch]);
 
   const handleClick = (id) => {
-    if(id.includes("d", 23)) 
+    console.log(id);
+    if(id.includes("f", 23)) 
     {
       document.body.style.backgroundImage = "url(./images/Background/BirthdayBr.jpg)";
     } 
-    else if (id.includes("e", 23)) 
+    else if (id.includes("0", 23)) 
     {
       document.body.style.backgroundImage = "url(./images/Background/CongratsBr.jpg)";
     } 
-    else if (id.includes("f", 23)) 
+    else if (id.includes("1", 23)) 
     {
       document.body.style.backgroundImage = "url(./images/Background/EasterBr.jpg)";
     } 
-    else if (id.includes("0", 23)) 
+    else if (id.includes("2", 23)) 
     {
       document.body.style.backgroundImage = "url(./images/Background/GiftBr.jpg)";
     } 
-    else if (id.includes("1", 23)) 
+    else if (id.includes("3", 23)) 
     {
       document.body.style.backgroundImage = "url(./images/Background/JustCauseBr.jpg)";
     } 
-    else if (id.includes("2", 23)) 
+    else if (id.includes("4", 23)) 
     {
       document.body.style.backgroundImage = "url(./images/Background/LoveBr.jpg)";
     } 
-    else if (id.includes("3", 23)) 
+    else if (id.includes("5", 23)) 
     {
       document.body.style.backgroundImage = "url(./images/Background/MomBr.jpg)";
     } 
-    else if (id.includes("4", 23)) 
+    else if (id.includes("6", 23)) 
     {
       document.body.style.backgroundImage = "url(./images/Background/SympathyBr.jpg)";
     }
