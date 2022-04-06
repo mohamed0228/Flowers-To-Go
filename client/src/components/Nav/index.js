@@ -43,7 +43,7 @@ function Nav() {
   }
 
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row px-1 space-evenly ">
       <h1>
         <Link to="/">
           <span enter="bounceIn" role="img" aria-label="shopping bag" >🌼</span>
@@ -52,7 +52,7 @@ function Nav() {
        
       </h1>
 
-      <nav>
+      <nav className="navbar">
         {showNavigation()}
       </nav>
     </header>

@@ -27,6 +27,7 @@ body {
   font-size: 16px;
   color: var(--dark);
 }
+
 /* .one {
   margin-left: 100px;
 } */
@@ -88,6 +89,13 @@ header {
 
 header a {
   color: var(--light);
+}
+
+.navbar {
+  display: flex;
+  margin-left: 850px;
+  flex-direction: row;
+  /* justify-content: flex-end; */
 }
 
 button {
@@ -210,5 +218,8 @@ input:focus {
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
+  }
+  .navbar {
+    margin-left: 20px;
   }
 }
