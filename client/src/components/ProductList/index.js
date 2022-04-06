@@ -43,6 +43,12 @@ function ProductList() {
     );
   }
 
+  // Registers a change in the dropdown and sends change as parameter to handleSort method
+  const handleSelect = (event) => {
+    handleSort(event.target.value);
+  }
+
+  // Sorts products according to the sort type selected
   const handleSort = (sortType) => {
     if (sortType === 'ASC') {
       dispatch({
@@ -61,22 +67,19 @@ function ProductList() {
     <div className='my-2'>
       <h2>Our Products:</h2>
       <div>
-        <button
-          key='ASC'
-          onClick={() => {
-            handleSort('ASC');
-          }}
-        >
-          Sort Price ASC
-        </button>
-        <button
-          key='DESC'
-          onClick={() => {
-            handleSort('DESC');
-          }}
-        >
-          Sort Price DESC
-        </button>
+        <select id='sort' defaultValue={'DEFAULT'} onChange={handleSelect}>
+          <option value='DEFAULT' disabled>Sort Price</option>
+          <option
+            value='ASC'
+          >
+            Low to High
+          </option>
+          <option
+            value='DESC'
+          >
+            High to Low
+          </option>
+        </select>
       </div>
       {state.products.length ? (
         <div className='flex-row'>

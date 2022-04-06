@@ -98,7 +98,7 @@ header a {
   /* justify-content: flex-end; */
 }
 
-button {
+button, #sort {
   color: white;
   font-size: 1rem;
   text-decoration: none;
