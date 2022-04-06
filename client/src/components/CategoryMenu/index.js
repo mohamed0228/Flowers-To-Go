@@ -34,37 +34,38 @@ function CategoryMenu() {
     }
   }, [categoryData, loading, dispatch]);
 
-  const handleClick = (id) => {
-    console.log(id);
-    if(id.includes("f", 23)) 
+  // Event listener for category buttons
+  const handleClick = (id, name) => {
+    // If-else statements that change the background image to correspond to the category
+    if(name === "Birthday") 
     {
       document.body.style.backgroundImage = "url(./images/Background/BirthdayBr.jpg)";
     } 
-    else if (id.includes("0", 23)) 
+    else if (name === "Congratulations") 
     {
       document.body.style.backgroundImage = "url(./images/Background/CongratsBr.jpg)";
     } 
-    else if (id.includes("1", 23)) 
+    else if (name === "Easter") 
     {
       document.body.style.backgroundImage = "url(./images/Background/EasterBr.jpg)";
     } 
-    else if (id.includes("2", 23)) 
+    else if (name === "Gift Baskets") 
     {
       document.body.style.backgroundImage = "url(./images/Background/GiftBr.jpg)";
     } 
-    else if (id.includes("3", 23)) 
+    else if (name === "Just Because") 
     {
       document.body.style.backgroundImage = "url(./images/Background/JustCauseBr.jpg)";
     } 
-    else if (id.includes("4", 23)) 
+    else if (name === "Love and Romance") 
     {
       document.body.style.backgroundImage = "url(./images/Background/LoveBr.jpg)";
     } 
-    else if (id.includes("5", 23)) 
+    else if (name === "Mother's Day") 
     {
       document.body.style.backgroundImage = "url(./images/Background/MomBr.jpg)";
     } 
-    else if (id.includes("6", 23)) 
+    else if (name === "Sympathy") 
     {
       document.body.style.backgroundImage = "url(./images/Background/SympathyBr.jpg)";
     }
@@ -82,7 +83,7 @@ function CategoryMenu() {
         <button
           key={item._id}
           onClick={() => {
-            handleClick(item._id);
+            handleClick(item.id, item.name);
           }}
         >
           {item.name}
