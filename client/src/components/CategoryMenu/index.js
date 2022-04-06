@@ -41,35 +41,35 @@ function CategoryMenu() {
     // If-else statements that change the background image to correspond to the category
     if(name === "Birthday") 
     {
-      document.body.style.backgroundImage = "url(./images/Background/BirthdayBr.jpg)";
+      document.body.style.backgroundColor = "#A4A9A7";
     } 
     else if (name === "Congratulations") 
     {
-      document.body.style.backgroundImage = "url(./images/Background/CongratsBr.jpg)";
+      document.body.style.backgroundColor = "#BADBCA";
     } 
     else if (name === "Easter") 
     {
-      document.body.style.backgroundImage = "url(./images/Background/EasterBr.jpg)";
+      document.body.style.backgroundColor = "#FDEBCE";
     } 
     else if (name === "Gift Baskets") 
     {
-      document.body.style.backgroundImage = "url(./images/Background/GiftBr.jpg)";
+      document.body.style.backgroundColor = "#ACECAE";
     } 
     else if (name === "Just Because") 
     {
-      document.body.style.backgroundImage = "url(./images/Background/JustCauseBr.jpg)";
+      document.body.style.backgroundColor = "#F3D7B2";
     } 
     else if (name === "Love and Romance") 
     {
-      document.body.style.backgroundImage = "url(./images/Background/LoveBr.jpg)";
+      document.body.style.backgroundColor = "#DFA9D6";
     } 
     else if (name === "Mother's Day") 
     {
-      document.body.style.backgroundImage = "url(./images/Background/MomBr.jpg)";
+      document.body.style.backgroundColor = "#EFC1BA";
     } 
     else if (name === "Sympathy") 
     {
-      document.body.style.backgroundImage = "url(./images/Background/SympathyBr.jpg)";
+      document.body.style.backgroundColor = "#90CBF9";
     }
 
     // Updates the product list according to the category selected

@@ -46,9 +46,7 @@ function Nav() {
       <h1>
         <Link to="/">
           <span enter="bounceIn" role="img" aria-label="shopping bag" >🌼</span>
-          -Flowers-To-Go-🌺
-
-
+          -Flowers-To-Go
         </Link>
        
       </h1>

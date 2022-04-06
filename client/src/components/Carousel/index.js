@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 export default function CarouselComponent() {
   return (
     <div className='carousel-wrapper'>
-      <Carousel showThumbs={false} infiniteLoop autoPlay>
+      <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay>
         <div>
           <img src='./images/carouseleaster.jpg' alt='PKC' />
         </div>

@@ -93,12 +93,12 @@ header a {
 
 .navbar {
   display: flex;
-  margin-left: 850px;
+  /* margin-left: 850px; */
   flex-direction: row;
   /* justify-content: flex-end; */;
 }
 
-button {
+button, #sort {
   color: white;
   font-size: 1rem;
   text-decoration: none;
@@ -125,7 +125,7 @@ img {
 }
 
 span[role="img"] {
-  cursor: default;
+  cursor: pointer;
 }
 
 form {
