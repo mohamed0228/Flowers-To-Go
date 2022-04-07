@@ -64,7 +64,7 @@ function ProductList() {
   };
 
   return (
-    <div className='my-2'>
+    <div className='my-2' id='flower-products'>
       <h2>Our Products:</h2>
       <div>
         <select id='sort' defaultValue={'DEFAULT'} onChange={handleSelect}>

@@ -1,11 +1,8 @@
 import React from 'react';
-// import { SaleBanner } from '../../../public/images/Banners/SaleBanner';
-// import './sale.css'; 
 
-function ShippingDetailComponent() {
+function ShippingDetail() {
   return (
       <div className='shipping-banner'>
-      {/* <SaleBanner> */}
         <div>
         <h2>
         Send Flowers Online with Flower Delivery by Flowers-To-Go, the World's Favorite Florist!
@@ -35,9 +32,8 @@ function ShippingDetailComponent() {
         We deliver flowers across the United States as well as around the world. If you want to send flowers or gifts internationally, trust us to deliver your most heartfelt messages. Due to our partnerships with local florists and flower growers, we are able to ensure that arrangements and bouquets are delivered fresh from the field and on time. Our flower arrangements are artfully created and delivered perfectly arranged by professional florists.
         </p>
         </div>
-      {/* </SaleBanner> */}
     </div>
   );
 }
 
-export default ShippingDetailComponent;
+export default ShippingDetail;
