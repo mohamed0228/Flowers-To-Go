@@ -1,6 +1,6 @@
 :root {
   --primary: #232F3E;
-  --secondary: #184d1b;
+  --secondary: purple;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #272f32;
@@ -101,8 +101,8 @@ header a {
 button, #sort {
  display: inline;
   color: white;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 0.8rem;
+  font-family: 'Century gothic', sans-serif;
+  font-size: 0.95rem;
   text-decoration: none;
   padding: 0.75rem 0.75rem;
   border-radius: 1rem;
