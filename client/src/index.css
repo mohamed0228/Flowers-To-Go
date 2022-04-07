@@ -101,10 +101,11 @@ header a {
 button, #sort {
  display: inline;
   color: white;
-  font-size: 1.2rem;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 0.8rem;
   text-decoration: none;
-  padding: 1.2rem 1.3rem;
-  border-radius: 1.5rem;
+  padding: 0.75rem 0.75rem;
+  border-radius: 1rem;
   border: none;
   outline: none;
   cursor: pointer;
