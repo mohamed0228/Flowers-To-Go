@@ -5,7 +5,7 @@ function SaleBanner() {
   return (
       <div className='sale-banner'>
         <div>
-        <img src= '/images/salesbanner.jpg' alt='shopping cart'/>
+        <img src='/images/SalesBanner.jpg' alt='shopping cart'/>
         </div>
     </div>
   );
