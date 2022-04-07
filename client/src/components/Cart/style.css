@@ -2,14 +2,15 @@
   position: fixed;
   top: 0;
   right: 0;
-  min-width: 20%;
-  max-width: 30%;
+  min-width: 40%;
+  max-width: 3600%;
   max-height: 60%;
-  background-color: var(--light);
+  background-color: pink;
   overflow: auto;
   padding: .5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
   border-bottom-left-radius: .5rem;
+  border-radius: 20px; 
 }
 
 .cart h2 {
@@ -24,7 +25,7 @@
   top: .5rem;
   right: .5rem;
   cursor: pointer;
-  color: var(--tertiary);
+  color: white;
 }
 
 .cart .close:hover {
@@ -58,6 +59,11 @@
   padding: 0;
   margin: 0 .5rem 1rem 0;
 }
+.close {
+  font-size: 1.3rem;
+  padding: .4rem;
+  
+}
 
 
 @media screen and (max-width: 768px) {
@@ -66,7 +72,8 @@
     max-width: 100%;
     max-height: auto;
     box-shadow: none;
-    background-color: inherit;
+    background-color: pink;
+    border-radius: 20px;
   }
 
   .cart-closed {
