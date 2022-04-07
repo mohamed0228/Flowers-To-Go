@@ -41,7 +41,7 @@ function CategoryMenu() {
   const handleClick = (id, name) => {
     // If-else statements that change the background image to correspond to the category
     if (name === 'All Flowers') {
-      document.body.style.backgroundColor = 'white';
+      document.body.style.backgroundColor = 'aliceblue';
     } else if (name === 'Birthday') {
       document.body.style.backgroundColor = '#A4A9A7';
       home.hideComponent('showHideFlowerCarousel');
