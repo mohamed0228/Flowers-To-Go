@@ -1,6 +1,6 @@
 import React from "react";
-// import ProductList from "../components/ProductList";
-import CategoryMenu from "../components/CategoryMenu";
+import ProductList from "../components/ProductList";
+// import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
 import '../components/Carousel/app.css';
 import CarouselComponent from "../components/Carousel";
@@ -20,10 +20,10 @@ const Home = () => {
     </div>  
       {/* <ProductList /> */}
       <SaleBannerComponent />
-      <CategoryMenu />
+      {/* <CategoryMenu /> */}
       <ShippingBannerComponent />
       <ShippingDetailComponent />
-      {/* <ProductList /> */}
+      <ProductList />
       <Cart />
       <Footer />
     </div>
