@@ -20,6 +20,7 @@ const Home = () => {
     </div>  
       {/* <ProductList /> */}
       <SaleBannerComponent />
+      
       {/* <CategoryMenu /> */}
       <ShippingBannerComponent />
       <ShippingDetailComponent />
