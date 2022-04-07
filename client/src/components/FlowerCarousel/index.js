@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 import { Carousel } from 'react-responsive-carousel';
-// import { Link } from 'react-router-dom';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { useStoreContext } from '../../utils/GlobalState';
 import {

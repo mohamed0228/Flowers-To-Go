@@ -4,7 +4,7 @@ function ShippingBanner() {
   return (
       <div className='shipping-banner'>
         <div>
-        <img src= '/images/shippingbanner.jpg' alt='shipping'/>
+        <img src= '/images/ShippingBanner.jpg' alt='shipping'/>
         </div>
     </div>
   );
