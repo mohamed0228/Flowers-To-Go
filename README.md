@@ -29,7 +29,10 @@ Flowers to Go is an application for a fictional flower delivery service. This ap
 
   ### Installation
   
-  * None
+  * Open a terminal, head to the desired destination folder and type git ```clone git@github.com:mohamed0228/project-3.git```
+  * Run ```npm i``` to install all the dependencies needed to run the app
+  * Run ```npm run seed``` to seed the web app with the products
+  * Finally, run ```npm run develop``` to open the development sever and get to work!
 
   ### Usage
 
@@ -53,7 +56,5 @@ Flowers to Go is an application for a fictional flower delivery service. This ap
   * No tests!
 
   ### Further Questions?
-
-  * Link to GitHub: https://github.com/mohamed0228
 
   * If you have further questions, feel free to email one of us at one of the following addresss & we will get back to you as soon as we can: ah847@scarletmail.rutgers.edu, mrican217@gmail.com, mohamed0228@outlook.fr, borrowedandblue@gmail.com, or santasebastian@yahoo.com
